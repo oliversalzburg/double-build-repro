@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "lib": ["ES2020"],
+    "module": "CommonJS",
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2020",
+    "rootDir": "source",
+    "outDir": "output",
+    "incremental": true,
+    "declaration": false,
+    "skipLibCheck": true,
+    "types": ["@types/jest", "@types/node"]
+  },
+  "exclude": [".yarn", "packages/*/output"]
+}
